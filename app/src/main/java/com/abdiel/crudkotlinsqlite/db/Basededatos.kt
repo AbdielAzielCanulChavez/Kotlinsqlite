@@ -31,7 +31,7 @@ class Basededatos(var context : Context)
                 COL_NOMBRE + " VARCHAR(256)," +
                 COL_EDAD+ " INTEGER)";
         db?.execSQL(crearTabla); //aqui ya ejecutas el query para crearlo
-
+        db?.close() //cierras la entrada de sqlite para evitar pedos
 
     }
 
