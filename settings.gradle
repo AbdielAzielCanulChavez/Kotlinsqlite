@@ -1,0 +1,2 @@
+rootProject.name='CrudKotlinsqlite'
+include ':app'
